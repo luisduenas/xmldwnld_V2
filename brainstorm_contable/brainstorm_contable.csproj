@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\download.png" />
+    <None Remove="Assets\go-to-web.png" />
+    <None Remove="Assets\import.png" />
+    <None Remove="Assets\inbox.png" />
+    <None Remove="Assets\logo_banner.png" />
+    <None Remove="Assets\logo_fondo.png" />
+    <None Remove="Assets\tools.png" />
+    <None Remove="UserControls\download.png" />
+    <None Remove="UserControls\go-to-web.png" />
+    <None Remove="UserControls\import.png" />
+    <None Remove="UserControls\tools.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\download.png" />
+    <Resource Include="Assets\go-to-web.png" />
+    <Resource Include="Assets\import.png" />
+    <Resource Include="Assets\inbox.png" />
+    <Resource Include="Assets\logo_banner.png" />
+    <Resource Include="Assets\logo_fondo.png" />
+    <Resource Include="Assets\tools.png" />
+    <Resource Include="UserControls\download.png" />
+    <Resource Include="UserControls\go-to-web.png" />
+    <Resource Include="UserControls\import.png" />
+    <Resource Include="UserControls\tools.png" />
+  </ItemGroup>
+
+</Project>
